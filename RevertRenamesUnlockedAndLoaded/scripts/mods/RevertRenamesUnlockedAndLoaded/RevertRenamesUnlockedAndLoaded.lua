@@ -4,11 +4,11 @@ local WTL = get_mod("WhatTheLocalization")
 mod.localization_templates = {
 	-- ==== VIGILANT AUTOGUNS ====
 	{	-- Columnus Mk III Vigilant Autogun
-		id = "vigilant1FullName",
+		id = "vigilant1Family",
 		loc_keys = {"loc_weapon_family_autogun_p3_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Vraks Mk III Headhunter Autogun" 
+			return "Headhunter Autogun" 
 		end,
 	},
 	{
@@ -29,11 +29,11 @@ mod.localization_templates = {
 		end,
 	}, ]]
 	{	-- Graia Mk VII Vigilant Autogun
-		id = "vigilant2FullName",
+		id = "vigilant2Family",
 		loc_keys = {"loc_weapon_family_autogun_p3_m2",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Vraks Mk VII Headhunter Autogun" 
+			return "Headhunter Autogun" 
 		end,
 	},
 	{
@@ -54,11 +54,11 @@ mod.localization_templates = {
 		end,
 	}, ]]
 	{	-- Agripinaa Mk IX Vigilant Autogun
-		id = "vigilant3FullName",
+		id = "vigilant3Family",
 		loc_keys = {"loc_weapon_family_autogun_p3_m3",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Agripinaa Mk IX Headhunter Autogun" 
+			return "Headhunter Autogun" 
 		end,
 	},
 	--[[
@@ -80,11 +80,11 @@ mod.localization_templates = {
 	}, ]]
 	-- ==== FORCE STAVES p1 ====
 	{	-- Voidblast Force Staff
-		id = "staff1FullName",
+		id = "staff1Family",
 		loc_keys = {"loc_weapon_family_forcestaff_p1_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Equinox Mk III Trauma Force Staff" 
+			return "Trauma Force Staff" 
 		end,
 	},
 	{
@@ -104,11 +104,11 @@ mod.localization_templates = {
 		end,
 	},
 	{	-- Inferno Force Staff
-		id = "staff2FullName",
+		id = "staff2Family",
 		loc_keys = {"loc_weapon_family_forcestaff_p2_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Rifthaven Mk II Purgatus Force Staff" 
+			return "Purgatus Force Staff" 
 		end,
 	},
 	{
@@ -128,11 +128,11 @@ mod.localization_templates = {
 		end,
 	},
 	{	-- Voidstrike Force Staff
-		id = "staff1FullName",
+		id = "staff1Family",
 		loc_keys = {"loc_weapon_family_forcestaff_p4_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Equinox Mk IV Voidstrike Force Staff" 
+			return "Voidstrike Force Staff" 
 		end,
 	},
 	{
@@ -160,14 +160,14 @@ mod.localization_templates = {
 		end,
 	},]]
 	-- ==== COMBAT SHOTGUNS ====
-	{	-- Zarona Combat Shotgun
-		id = "combatShotgun1FullName",
+	--[[{	-- Zarona Combat Shotgun
+		id = "combatShotgun1Family",
 		loc_keys = {"loc_weapon_family_shotgun_p1_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Lawbringer Combat Shotgun" 
+			return "Combat Shotgun" 
 		end,
-	},
+	},]]
 	{
 		id = "combatShotgun1Pattern",
 		loc_keys = {"loc_weapon_pattern_shotgun_p1_m1",},
@@ -184,14 +184,14 @@ mod.localization_templates = {
 			return "" 
 		end,
 	},
-	{	-- Accatran Combat Shotgun
-		id = "combatShotgun2FullName",
+	--[[{	-- Accatran Combat Shotgun
+		id = "combatShotgun2Family",
 		loc_keys = {"loc_weapon_family_shotgun_p1_m3",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Kantrael Combat Shotgun" 
+			return "Combat Shotgun" 
 		end,
-	},
+	},]]
 	{
 		id = "combatShotgun2Pattern",
 		loc_keys = {"loc_weapon_pattern_shotgun_p1_m3",},
@@ -209,14 +209,14 @@ mod.localization_templates = {
 		end,
 	},
 	-- ==== INFANTRY LASGUNS ====
-	{	-- Kantrael Mk VII Infantry Lasgun
-		id = "ilas1FullName",
+	--[[{	-- Kantrael Mk VII Infantry Lasgun
+		id = "ilas1Family",
 		loc_keys = {"loc_weapon_family_lasgun_p1_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Kantrael MG Ia Infantry Lasgun" 
+			return "Infantry Lasgun" 
 		end,
-	},
+	},]]
 	--[[ 
 	{
 		id = "Pattern",
@@ -234,14 +234,14 @@ mod.localization_templates = {
 			return "MG Ia" 
 		end,
 	},
-	{	-- Kantrael Mk IX Infantry Lasgun
-		id = "ilas3FullName",
+	--[[{	-- Kantrael Mk IX Infantry Lasgun
+		id = "ilas3Family",
 		loc_keys = {"loc_weapon_family_lasgun_p1_m3",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Kantrael MG XII Infantry Lasgun" 
+			return "Infantry Lasgun" 
 		end,
-	},
+	},]]
 	--[[ 
 	{
 		id = "Pattern",
@@ -259,14 +259,14 @@ mod.localization_templates = {
 			return "MG XII" 
 		end,
 	},
-	{	-- Kantrael Mk IIb Infantry Lasgun
-		id = "ilas2FullName",
+	--[[{	-- Kantrael Mk IIb Infantry Lasgun
+		id = "ilas2Family",
 		loc_keys = {"loc_weapon_family_lasgun_p1_m2",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Kantrael MG IV Infantry Lasgun" 
+			return "Infantry Lasgun" 
 		end,
-	},
+	},]]
 	--[[ 
 	{
 		id = "Pattern",
@@ -285,14 +285,14 @@ mod.localization_templates = {
 		end,
 	},
     -- ==== RECON LASGUNS ====
-	{	-- Accatran Mk VIc Recon Lasgun
-		id = "recon1FullName",
+	--[[{	-- Accatran Mk VIc Recon Lasgun
+		id = "recon1Family",
 		loc_keys = {"loc_weapon_family_lasgun_p3_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Accatran Mk II Recon Lasgun" 
+			return "Recon Lasgun" 
 		end,
-	},
+	},]]
 	--[[ {
 		id = "recon2Pattern",
 		loc_keys = {"loc_weapon_pattern_lasgun_p3_m1",},
@@ -309,14 +309,14 @@ mod.localization_templates = {
 			return "Mk II" 
 		end,
 	},
-	{	-- Accatran Mk XII Recon Lasgun
-		id = "recon2FullName",
+	--[[{	-- Accatran Mk XII Recon Lasgun
+		id = "recon2Family",
 		loc_keys = {"loc_weapon_family_lasgun_p3_m2",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Accatran Mk VId Recon Lasgun" 
+			return "Recon Lasgun" 
 		end,
-	},
+	},]]
 	--[[ {
 		id = "recon2Pattern",
 		loc_keys = {"loc_weapon_pattern_lasgun_p3_m2",},
@@ -333,14 +333,14 @@ mod.localization_templates = {
 			return "Mk VId" 
 		end,
 	},
-	{	-- Accatran Mk XIV Recon Lasgun
-		id = "recon3FullName",
+	--[[{	-- Accatran Mk XIV Recon Lasgun
+		id = "recon3Family",
 		loc_keys = {"loc_weapon_family_lasgun_p3_m3",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Accatran Mk VIIa Recon Lasgun" 
+			return "Recon Lasgun" 
 		end,
-	},
+	},]]
 	--[[ {
 		id = "recon3Pattern",
 		loc_keys = {"loc_weapon_pattern_lasgun_p3_m3",},
@@ -359,7 +359,7 @@ mod.localization_templates = {
 	},
 	-- ==== INFANTRY AUTOGUNS ====
 	--[[{	-- I Gripped A Penis Mk I
-		id = "FullName",
+		id = "Family",
 		loc_keys = {"loc_weapon_family_",},
 		locales = {"en",},
 		handle_func = function(locale, value)
@@ -382,14 +382,14 @@ mod.localization_templates = {
 			return "" 
 		end,
 	}, ]]
-	{	-- Vraks Mk V Infantry Autogun
-		id = "iag2FullName",
+	--[[{	-- Vraks Mk V Infantry Autogun
+		id = "iag2Family",
 		loc_keys = {"loc_weapon_family_autogun_p1_m2",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Columnus Mk V Infantry Autogun" 
+			return "Infantry Autogun" 
 		end,
-	},
+	},]]
 	{
 		id = "iag2Pattern",
 		loc_keys = {"loc_weapon_pattern_autogun_p1_m2",},
@@ -406,14 +406,14 @@ mod.localization_templates = {
 			return "" 
 		end,
 	},]]
-	{	-- Columnus Mk VIII Infantry Autogun
-		id = "iag3FullName",
+	--[[{	-- Columnus Mk VIII Infantry Autogun
+		id = "iag3Family",
 		loc_keys = {"loc_weapon_family_autogun_p1_m3",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Graia Mk VIII Infantry Autogun" 
+			return "Infantry Autogun" 
 		end,
-	},
+	},]]
 	{
 		id = "iag3Pattern",
 		loc_keys = {"loc_weapon_pattern_autogun_p1_m3",},
@@ -431,14 +431,14 @@ mod.localization_templates = {
 		end,
 	},]]
 	-- ==== BRACED AUTOGUNS ====
-	{	-- Vraks Mk II Braced Autogun
-		id = "brauto1FullName",
+	--[[{	-- Vraks Mk II Braced Autogun
+		id = "brauto1Family",
 		loc_keys = {"loc_weapon_family_autogun_p2_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Columnus Mk II Braced Autogun" 
+			return "Braced Autogun" 
 		end,
-	},
+	},]]
 	{
 		id = "brauto1Pattern",
 		loc_keys = {"loc_weapon_pattern_autogun_p2_m1",},
@@ -456,14 +456,14 @@ mod.localization_templates = {
 		end,
 	},]]
 	-- ==== SHOCK MAUL ====
-	{	-- Munitorum Mk III Shock Maul
-		id = "saul2FullName",
+	--[[{	-- Munitorum Mk III Shock Maul
+		id = "saul2Family",
 		loc_keys = {"loc_weapon_family_powermaul_p1_m2",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Indignatus Mk III Shock Maul" 
+			return "Shock Maul" 
 		end,
-	},
+	},]]
 	{
 		id = "saul2Pattern",
 		loc_keys = {"loc_weapon_pattern_powermaul_p1_m2",},
@@ -481,14 +481,14 @@ mod.localization_templates = {
 		end,
 	},]]
 	-- ==== HEAVY EVISCERATOR ====
-	{	-- Tigrus Mk III Heavy Eviscerator
-		id = "evis1FullName",
+	--[[{	-- Tigrus Mk III Heavy Eviscerator
+		id = "evis1Family",
 		loc_keys = {"loc_weapon_family_chainsword_2h_p1_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Tigrus Mk II Heavy Eviscerator" 
+			return "Heavy Eviscerator" 
 		end,
-	},
+	},]]
 	--[[{
 		id = "evis1Pattern",
 		loc_keys = {"loc_weapon_pattern_chainsword_2h_p1_m1",},
@@ -506,14 +506,14 @@ mod.localization_templates = {
 		end,
 	},
 	-- ==== POWER SWORDS ====
-	{	-- Scandar Mk III Power Sword
-		id = "psword1FullName",
+	--[[{	-- Scandar Mk III Power Sword
+		id = "psword1Family",
 		loc_keys = {"loc_weapon_family_powersword_p1_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Munitorum Mk III Power Sword" 
+			return "Power Sword" 
 		end,
-	},
+	},]]
 	{
 		id = "psword1Pattern",
 		loc_keys = {"loc_weapon_pattern_powersword_p1_m1",},
@@ -530,14 +530,14 @@ mod.localization_templates = {
 			return "" 
 		end,
 	},]]
-	{	-- Achlys Mk VI Power Sword
-		id = "psword2FullName",
+	--[[{	-- Achlys Mk VI Power Sword
+		id = "psword2Family",
 		loc_keys = {"loc_weapon_family_powersword_p1_m2",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Munitorum Mk VI Power Sword" 
+			return "Power Sword" 
 		end,
-	},
+	},]]
 	{
 		id = "psword2Pattern",
 		loc_keys = {"loc_weapon_pattern_powersword_p1_m2",},
@@ -555,14 +555,14 @@ mod.localization_templates = {
 		end,
 	},]]
 	-- ==== LUCIUS LASGUNS ====
-	{	-- Lucius Mk IIIa Helbore Lasgun
-		id = "helbore1FullName",
+	--[[{	-- Lucius Mk IIIa Helbore Lasgun
+		id = "helbore1Family",
 		loc_keys = {"loc_weapon_family_lasgun_p2_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Lucius Mk I Helbore Lasgun" 
+			return "Helbore Lasgun" 
 		end,
-	},
+	},]]
 	--[[{
 		id = "helbore1Pattern",
 		loc_keys = {"loc_weapon_pattern_lasgun_p2_m1",},
@@ -579,14 +579,14 @@ mod.localization_templates = {
 			return "Mk I" 
 		end,
 	},
-	{	-- Lucius Mk V Helbore Lasgun
-		id = "helbore2FullName",
+	--[[{	-- Lucius Mk V Helbore Lasgun
+		id = "helbore2Family",
 		loc_keys = {"loc_weapon_family_lasgun_p2_m2",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Lucius Mk II Helbore Lasgun" 
+			return "Helbore Lasgun" 
 		end,
-	},
+	},]]
 	--[[{
 		id = "helborePattern2",
 		loc_keys = {"loc_weapon_pattern_lasgun_p2_m2",},
@@ -604,21 +604,21 @@ mod.localization_templates = {
 		end,
 	},
 	--[[{	-- Lucius Mk IV Helbore Lasgun
-		id = "helbore3FullName",
+		id = "helbore3Family",
 		loc_keys = {"loc_weapon_family_lasgun_p2_m3",},
+		locales = {"en",},
+		handle_func = function(locale, value)
+			return "Helbore Lasgun" 
+		end,
+	},]]
+	--[[{
+		id = "helbore3Pattern",
+		loc_keys = {"loc_weapon_pattern_lasgun_p2_m3",},
 		locales = {"en",},
 		handle_func = function(locale, value)
 			return "Lucius" 
 		end,
 	},]]
-	{
-		id = "helbore3Pattern",
-		loc_keys = {"loc_weapon_pattern_lasgun_p2_m3",},
-		locales = {"en",},
-		handle_func = function(locale, value)
-			return "Lucius Mk III Helbore Lasgun" 
-		end,
-	},
 	{
 		id = "helbore3Mark",
 		loc_keys = {"loc_weapon_mark_lasgun_p2_m3",},
@@ -633,61 +633,11 @@ mod.localization_templates = {
 	]]
 	-- ==== DOUBLE-BARRELED SHOTGUN ====
 	{	-- Crucis Mk XI Double-Barrelled Shotgun
-		id = "dbFullName",
+		id = "dbFamily",
 		loc_keys = {"loc_weapon_family_shotgun_p2_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Ironhelm \"Hacker\" Mk IV Assault Shotgun" 
-		end,
-	},
-	{
-		id = "dbPattern",
-		loc_keys = {"loc_weapon_pattern_shotgun_p2_m1",},
-		locales = {"en",},
-		handle_func = function(locale, value)
-			return "Ironhelm" 
-		end,
-	},
-	{
-		id = "dbMark",
-		loc_keys = {"loc_weapon_mark_shotgun_p2_m1",},
-		locales = {"en",},
-		handle_func = function(locale, value)
-			return "Mk IV" 
-		end,
-	},
-	-- ==== BOLT PISTOL ====
-	{	-- Godwyn-Branx Mk IV Bolt Pistol
-		id = "bistolFullName",
-		loc_keys = {"loc_weapon_family_boltpistol_p1_m1",},
-		locales = {"en",},
-		handle_func = function(locale, value)
-			return "Godwyn-Branx Pattern Bolt Pistol" 
-		end,
-	},
-	--[[{
-		id = "bistolPattern",
-		loc_keys = {"loc_weapon_pattern_boltpistol_p1_m1",},
-		locales = {"en",},
-		handle_func = function(locale, value)
-			return "Mk II" 
-		end,
-	},]]
-	{
-		id = "bistolMark",
-		loc_keys = {"loc_weapon_mark_boltpistol_p1_m1",},
-		locales = {"en",},
-		handle_func = function(locale, value)
-			return ""
-		end,
-	},
-		-- ==== DOUBLE-BARRELED SHOTGUN ====
-	{	-- Crucis Mk XI Double-Barrelled Shotgun
-		id = "dbFullName",
-		loc_keys = {"loc_weapon_family_shotgun_p2_m1",},
-		locales = {"en",},
-		handle_func = function(locale, value)
-			return "Ironhelm \"Hacker\" Mk IV Assault Shotgun" 
+			return "Assault Shotgun" 
 		end,
 	},
 	{
@@ -708,11 +658,11 @@ mod.localization_templates = {
 	},
 	-- ==== FORCE STAVES p2 ====
 	{	-- Electrokinetic Force Staff
-		id = "staff3FullName",
+		id = "staff3Family",
 		loc_keys = {"loc_weapon_family_forcestaff_p3_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Nomanus Mk VI Surge Force Staff" 
+			return "Surge Force Staff" 
 		end,
 	}, 
 	{
@@ -731,15 +681,65 @@ mod.localization_templates = {
 			return "Mk VI" 
 		end,
 	},
+	-- ==== BOLT PISTOL ====
+	--[[{	-- Godwyn-Branx Mk IV Bolt Pistol
+		id = "bistolFamily",
+		loc_keys = {"loc_weapon_family_boltpistol_p1_m1",},
+		locales = {"en",},
+		handle_func = function(locale, value)
+			return "Bolt Pistol" 
+		end,
+	},]]
+	{
+		id = "bistolPattern",
+		loc_keys = {"loc_weapon_pattern_boltpistol_p1_m1",},
+		locales = {"en",},
+		handle_func = function(locale, value)
+			return "Godwyn-Branx Pattern" 
+		end,
+	},
+	{
+		id = "bistolMark",
+		loc_keys = {"loc_weapon_mark_boltpistol_p1_m1",},
+		locales = {"en",},
+		handle_func = function(locale, value)
+			return ""
+		end,
+	},
+	-- ==== SHREDDER AUTOPISTOLS ====
+	--[[{	-- Ius Mk IV Shredder Autopistol
+		id = "shrapFamily",
+		loc_keys = {"loc_weapon_family_autopistol_p1_m1",},
+		locales = {"en",},
+		handle_func = function(locale, value)
+			return "Shredder Autopistol" 
+		end,
+	},]]
+	--[[{
+		id = "shrapPattern",
+		loc_keys = {"loc_weapon_pattern_autopistol_p1_m1",},
+		locales = {"en",},
+		handle_func = function(locale, value)
+			return "Ius" 
+		end,
+	},]]
+	{
+		id = "shrapMark",
+		loc_keys = {"loc_weapon_mark_autopistol_p1_m1",},
+		locales = {"en",},
+		handle_func = function(locale, value)
+			return "Mk III" 
+		end,
+	},
 	-- ==== COMBAT AXES ====
-	{	-- Rashad Mk III Combat Axe
-		id = "rashadFullName",
+	--[[{	-- Rashad Mk III Combat Axe
+		id = "rashadFamily",
 		loc_keys = {"loc_weapon_family_combataxe_p1_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Rashad Mk II Combat Axe" 
+			return "Combat Axe" 
 		end,
-	},
+	},]]
 	{
 		id = "rashadMark",
 		loc_keys = {"loc_weapon_mark_combataxe_p1_m1",},
@@ -749,14 +749,14 @@ mod.localization_templates = {
 		end,
 	},
 	-- ==== SHOVELS ====
-	{	-- Munitorum Mk I Sapper Shovel
-		id = "FullName",
+	--[[{	-- Munitorum Mk I Sapper Shovel
+		id = "Family",
 		loc_keys = {"loc_weapon_family_combataxe_p3_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Standard-issue Munitorum Sapper Shovel" 
+			return "Sapper Shovel" 
 		end,
-	},
+	},]]
 	{
 		id = "Pattern",
 		loc_keys = {"loc_weapon_pattern_combataxe_p3_m1",},
@@ -775,11 +775,11 @@ mod.localization_templates = {
 	},
 	-- ==== DELVER'S PACKAXES ====
 	{	-- Branx Mk Ia Delver’s Pickaxe
-		id = "pickaxe1FullName",
+		id = "pickaxe1Family",
 		loc_keys = {"loc_weapon_family_ogryn_pickaxe_2h_p1_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Branx Pick Axe" 
+			return "Pick Axe" 
 		end,
 	},
 	--[[{
@@ -799,11 +799,11 @@ mod.localization_templates = {
 		end,
 	},
 	{	-- Borovian Mk III Delver’s Pickaxe
-		id = "pickaxe2FullName",
+		id = "pickaxe2Family",
 		loc_keys = {"loc_weapon_family_pickaxe_2h_p1_m2",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Borovian Pick Axe" 
+			return "Pick Axe" 
 		end,
 	},
 	--[[{
@@ -823,11 +823,11 @@ mod.localization_templates = {
 		end,
 	},
 	{	-- Karsolas Mk II Delver’s Pickaxe
-		id = "pickaxe3FullName",
+		id = "pickaxe3Family",
 		loc_keys = {"loc_weapon_family_ogryn_pickaxe_2h_p1_m3",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "Karsolas Pick Axe" 
+			return "Pick Axe" 
 		end,
 	},
 	--[[{
@@ -848,7 +848,7 @@ mod.localization_templates = {
 	},
 	--[[ ==== TEMPLATE ====
 	{	-- WEAPON
-		id = "FullName",
+		id = "Family",
 		loc_keys = {"loc_weapon_family_",},
 		locales = {"en",},
 		handle_func = function(locale, value)
