@@ -750,7 +750,7 @@ mod.localization_templates = {
 	},
 	-- ==== SHOVELS ====
 	--[[{	-- Munitorum Mk I Sapper Shovel
-		id = "Family",
+		id = "shovel1Family",
 		loc_keys = {"loc_weapon_family_combataxe_p3_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
@@ -758,7 +758,7 @@ mod.localization_templates = {
 		end,
 	},]]
 	{
-		id = "Pattern",
+		id = "shovel1Pattern",
 		loc_keys = {"loc_weapon_pattern_combataxe_p3_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
@@ -766,7 +766,7 @@ mod.localization_templates = {
 		end,
 	},
 	{
-		id = "Mark",
+		id = "shovel1Mark",
 		loc_keys = {"loc_weapon_mark_combataxe_p3_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
@@ -845,7 +845,7 @@ mod.localization_templates = {
 		handle_func = function(locale, value)
 			return "" 
 		end,
-	},]]
+	},
 	--[[ ==== TEMPLATE ====
 	{	-- WEAPON
 		id = "Family",
