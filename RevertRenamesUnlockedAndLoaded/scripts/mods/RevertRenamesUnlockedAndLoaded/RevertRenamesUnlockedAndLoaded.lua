@@ -740,14 +740,14 @@ mod.localization_templates = {
 			return "Godwyn-Branx Pattern" 
 		end,
 	},
-	{
+	--[[{
 		id = "bistolMark",
 		loc_keys = {"loc_weapon_mark_boltpistol_p1_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
 			return ""
 		end,
-	},
+	},]]
 	-- ==== SHOVELS ====
 	--[[{	-- Munitorum Mk I Sapper Shovel
 		id = "shovel1Family",
@@ -765,14 +765,14 @@ mod.localization_templates = {
 			return "Standard-issue Munitorum" 
 		end,
 	},
-	{
+	--[[{
 		id = "shovel1Mark",
 		loc_keys = {"loc_weapon_mark_combataxe_p3_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "" 
+			return ""
 		end,
-	},
+	},]]
 	-- ==== DELVER'S PACKAXES ====
 	{	-- Branx Mk Ia Delver’s Pickaxe
 		id = "pickaxe1Family",
@@ -790,14 +790,14 @@ mod.localization_templates = {
 			return "Branx" 
 		end,
 	},]]
-	{
+	--[[{
 		id = "pickaxe1Mark",
 		loc_keys = {"loc_weapon_mark_ogryn_pickaxe_2h_p1_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
 			return "" 
 		end,
-	},
+	},]]
 	{	-- Borovian Mk III Delver’s Pickaxe
 		id = "pickaxe2Family",
 		loc_keys = {"loc_weapon_family_pickaxe_2h_p1_m2",},
@@ -814,14 +814,14 @@ mod.localization_templates = {
 			return "Borovian" 
 		end,
 	},]]
-	{
+	--[[{
 		id = "pickaxe2Mark",
 		loc_keys = {"loc_weapon_mark_ogryn_pickaxe_2h_p1_m2",},
 		locales = {"en",},
 		handle_func = function(locale, value)
 			return "" 
 		end,
-	},
+	},]]
 	{	-- Karsolas Mk II Delver’s Pickaxe
 		id = "pickaxe3Family",
 		loc_keys = {"loc_weapon_family_ogryn_pickaxe_2h_p1_m3",},
@@ -838,14 +838,14 @@ mod.localization_templates = {
 			return "Karsolas" 
 		end,
 	},]]
-	{
+	--[[{
 		id = "pickaxe3Mark",
 		loc_keys = {"loc_weapon_mark_ogryn_pickaxe_2h_p1_m3",},
 		locales = {"en",},
 		handle_func = function(locale, value)
 			return "" 
 		end,
-	},
+	},]]
 	--[[ ==== TEMPLATE ====
 	{	-- WEAPON
 		id = "Family",
