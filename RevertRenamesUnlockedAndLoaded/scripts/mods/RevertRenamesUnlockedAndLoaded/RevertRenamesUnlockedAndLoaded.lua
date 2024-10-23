@@ -455,6 +455,48 @@ mod.localization_templates = {
 			return "" 
 		end,
 	},]]
+	-- ==== SHREDDER AUTOPISTOLS ====
+	--[[{	-- Ius Mk IV Shredder Autopistol
+		id = "shrapFamily",
+		loc_keys = {"loc_weapon_family_autopistol_p1_m1",},
+		locales = {"en",},
+		handle_func = function(locale, value)
+			return "Shredder Autopistol" 
+		end,
+	},]]
+	--[[{
+		id = "shrapPattern",
+		loc_keys = {"loc_weapon_pattern_autopistol_p1_m1",},
+		locales = {"en",},
+		handle_func = function(locale, value)
+			return "Ius" 
+		end,
+	},]]
+	{
+		id = "shrapMark",
+		loc_keys = {"loc_weapon_mark_autopistol_p1_m1",},
+		locales = {"en",},
+		handle_func = function(locale, value)
+			return "Mk III" 
+		end,
+	},
+	-- ==== COMBAT AXES ====
+	--[[{	-- Rashad Mk III Combat Axe
+		id = "rashadFamily",
+		loc_keys = {"loc_weapon_family_combataxe_p1_m1",},
+		locales = {"en",},
+		handle_func = function(locale, value)
+			return "Combat Axe" 
+		end,
+	},]]
+	{
+		id = "rashadMark",
+		loc_keys = {"loc_weapon_mark_combataxe_p1_m1",},
+		locales = {"en",},
+		handle_func = function(locale, value)
+			return "Mk II" 
+		end,
+	},
 	-- ==== SHOCK MAUL ====
 	--[[{	-- Munitorum Mk III Shock Maul
 		id = "saul2Family",
@@ -706,51 +748,9 @@ mod.localization_templates = {
 			return ""
 		end,
 	},
-	-- ==== SHREDDER AUTOPISTOLS ====
-	--[[{	-- Ius Mk IV Shredder Autopistol
-		id = "shrapFamily",
-		loc_keys = {"loc_weapon_family_autopistol_p1_m1",},
-		locales = {"en",},
-		handle_func = function(locale, value)
-			return "Shredder Autopistol" 
-		end,
-	},]]
-	--[[{
-		id = "shrapPattern",
-		loc_keys = {"loc_weapon_pattern_autopistol_p1_m1",},
-		locales = {"en",},
-		handle_func = function(locale, value)
-			return "Ius" 
-		end,
-	},]]
-	{
-		id = "shrapMark",
-		loc_keys = {"loc_weapon_mark_autopistol_p1_m1",},
-		locales = {"en",},
-		handle_func = function(locale, value)
-			return "Mk III" 
-		end,
-	},
-	-- ==== COMBAT AXES ====
-	--[[{	-- Rashad Mk III Combat Axe
-		id = "rashadFamily",
-		loc_keys = {"loc_weapon_family_combataxe_p1_m1",},
-		locales = {"en",},
-		handle_func = function(locale, value)
-			return "Combat Axe" 
-		end,
-	},]]
-	{
-		id = "rashadMark",
-		loc_keys = {"loc_weapon_mark_combataxe_p1_m1",},
-		locales = {"en",},
-		handle_func = function(locale, value)
-			return "Mk II" 
-		end,
-	},
 	-- ==== SHOVELS ====
 	--[[{	-- Munitorum Mk I Sapper Shovel
-		id = "Family",
+		id = "shovel1Family",
 		loc_keys = {"loc_weapon_family_combataxe_p3_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
@@ -758,7 +758,7 @@ mod.localization_templates = {
 		end,
 	},]]
 	{
-		id = "Pattern",
+		id = "shovel1Pattern",
 		loc_keys = {"loc_weapon_pattern_combataxe_p3_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
@@ -766,7 +766,7 @@ mod.localization_templates = {
 		end,
 	},
 	{
-		id = "Mark",
+		id = "shovel1Mark",
 		loc_keys = {"loc_weapon_mark_combataxe_p3_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
