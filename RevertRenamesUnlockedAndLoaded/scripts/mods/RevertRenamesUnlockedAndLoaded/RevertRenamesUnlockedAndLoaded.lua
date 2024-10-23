@@ -176,14 +176,14 @@ mod.localization_templates = {
 			return "Lawbringer" 
 		end,
 	},
-	{
+	--[[{
 		id = "combatShotgun1Mark",
 		loc_keys = {"loc_weapon_mark_shotgun_p1_m1",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "" 
+			return "Mk VI" 
 		end,
-	},
+	},]]
 	--[[{	-- Accatran Combat Shotgun
 		id = "combatShotgun2Family",
 		loc_keys = {"loc_weapon_family_shotgun_p1_m3",},
@@ -200,14 +200,14 @@ mod.localization_templates = {
 			return "Kantrael" 
 		end,
 	},
-	{
+	--[[{
 		id = "combatShotgun2Mark",
 		loc_keys = {"loc_weapon_mark_shotgun_p1_m3",},
 		locales = {"en",},
 		handle_func = function(locale, value)
-			return "" 
+			return "Mk IX" 
 		end,
-	},
+	},]]
 	-- ==== INFANTRY LASGUNS ====
 	--[[{	-- Kantrael Mk VII Infantry Lasgun
 		id = "ilas1Family",
