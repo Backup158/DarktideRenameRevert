@@ -722,7 +722,7 @@ mod.localization_templates = {
 		handle_func = function(locale, value)
 			return "Mk VI" 
 		end,
-	},
+	}, ]]
 	-- ==== BOLT PISTOL ====
 	--[[{	-- Godwyn-Branx Mk IV Bolt Pistol
 		id = "bistolFamily",
@@ -732,7 +732,7 @@ mod.localization_templates = {
 			return "Bolt Pistol" 
 		end,
 	},]]
-	{
+	--[[{
 		id = "bistolPattern",
 		loc_keys = {"loc_weapon_pattern_boltpistol_p1_m1",},
 		locales = {"en",},
@@ -747,7 +747,7 @@ mod.localization_templates = {
 		handle_func = function(locale, value)
 			return ""
 		end,
-	},
+	},]]
 	-- ==== SHOVELS ====
 	--[[{	-- Munitorum Mk I Sapper Shovel
 		id = "shovel1Family",
@@ -757,7 +757,7 @@ mod.localization_templates = {
 			return "Sapper Shovel" 
 		end,
 	},]]
-	{
+	--[[{
 		id = "shovel1Pattern",
 		loc_keys = {"loc_weapon_pattern_combataxe_p3_m1",},
 		locales = {"en",},
@@ -781,7 +781,7 @@ mod.localization_templates = {
 		handle_func = function(locale, value)
 			return "Pick Axe" 
 		end,
-	},
+	},]]
 	--[[{
 		id = "pickaxe1Pattern",
 		loc_keys = {"loc_weapon_pattern_ogryn_pickaxe_2h_p1_m1",},
@@ -790,7 +790,7 @@ mod.localization_templates = {
 			return "Branx" 
 		end,
 	},]]
-	{
+	--[[{
 		id = "pickaxe1Mark",
 		loc_keys = {"loc_weapon_mark_ogryn_pickaxe_2h_p1_m1",},
 		locales = {"en",},
@@ -805,7 +805,7 @@ mod.localization_templates = {
 		handle_func = function(locale, value)
 			return "Pick Axe" 
 		end,
-	},
+	},]]
 	--[[{
 		id = "pickaxe2Pattern",
 		loc_keys = {"loc_weapon_pattern_ogryn_pickaxe_2h_p1_m2",},
@@ -814,7 +814,7 @@ mod.localization_templates = {
 			return "Borovian" 
 		end,
 	},]]
-	{
+	--[[{
 		id = "pickaxe2Mark",
 		loc_keys = {"loc_weapon_mark_ogryn_pickaxe_2h_p1_m2",},
 		locales = {"en",},
@@ -829,7 +829,7 @@ mod.localization_templates = {
 		handle_func = function(locale, value)
 			return "Pick Axe" 
 		end,
-	},
+	},]]
 	--[[{
 		id = "pickaxe3Pattern",
 		loc_keys = {"loc_weapon_pattern_ogryn_pickaxe_2h_p1_m3",},
@@ -838,14 +838,14 @@ mod.localization_templates = {
 			return "Karsolas" 
 		end,
 	},]]
-	{
+	--[[{
 		id = "pickaxe3Mark",
 		loc_keys = {"loc_weapon_mark_ogryn_pickaxe_2h_p1_m3",},
 		locales = {"en",},
 		handle_func = function(locale, value)
 			return "" 
 		end,
-	},
+	},]]
 	--[[ ==== TEMPLATE ====
 	{	-- WEAPON
 		id = "Family",
